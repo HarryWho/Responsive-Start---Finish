@@ -1,109 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Appilicious</title>
-    
+
     <link rel="stylesheet" href="/dist/css/main.min.css">
 </head>
+
 <body>
     <header class="main-header">
         <div class="container grid">
-            <div class="logo col"><img src="img/logo.svg" alt="Appilicious Logo"></div>
+            <div class="logo col">
+                <img src="img/logo.svg" alt="Appilicious Logo">
+            </div>
             <nav class="main-nav col">
                 <ul class="unstyled-list">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
                 </ul>
             </nav>
+            <div class="nav-toggle">
+                <div class="hamburger"></div>
+            </div>
+
         </div>
     </header>
     <!-- Hero Area -->
     <section class="hero">
         <div class="container grid">
-            <div class="hero-text col">
-                <h1 class="title-large"><span>Take your App to the</span> next level</h1>
-                <p class="text-intro">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus earum veniam, corrupti esse dolores sed quisquam excepturi nobis! Inventore, illum.</p>
-                <a href="#" class="btn btn--secondary">Learn More</a><a href="#" class="btn btn--primary">Get the App</a>
+            <div class="hero-text col col--2-3">
+                <h1 class="title-large">
+                    <span>Take your App to the</span> next level</h1>
+                <p class="text-intro">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus earum veniam, corrupti esse dolores sed
+                    quisquam excepturi nobis! Inventore, illum.</p>
+                <a href="#" class="btn btn--secondary">Learn More</a>
+                <a href="#" class="btn btn--primary">Get the App</a>
             </div>
-            <div class="col">
-                <img src="img/phone.png" alt="" class="hero-img">
+            <div class="col col--1-3">
+                <img src="img/phone.png" alt="" class="hero-img lg-screen">
             </div>
         </div>
     </section>
     <!--  Sales Points -->
     <section class="sales-points">
         <div class="container grid">
-            <h1>Promote Your App</h1>
-            <div class="sales-point col">
+            <h1 class="col col--full">Promote Your App</h1>
+            <div class="sales-point col col--1-3">
                 <img src="img/sales-responsive.png" alt="">
-                <h2></h2>
-                <p></p>
+                <h2>Responsive Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatibus perferendis id. Explicabo doloremque
+                    quibusdam, ducimus aspernatur minima ipsum velit.</p>
             </div>
-            <div class="sales-point col">
+            <div class="sales-point col col--1-3">
                 <img src="img/sales-hand.png" alt="">
-                <h2></h2>
-                <p></p>
+                <h2>Easy to setup</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero nemo eum animi, voluptatem mollitia in? Quod,
+                    at! Eius, voluptas sint.</p>
             </div>
-            <div class="sales-point col">
+            <div class="sales-point col col--1-3">
                 <img src="img/sales-graph.png" alt="">
-                <h2></h2>
-                <p></p>
+                <h2>Great Results</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat aliquid praesentium odit obcaecati, iure
+                    velit reprehenderit! Ipsam nulla laborum veritatis?</p>
             </div>
         </div>
     </section>
     <!-- Promo section -->
 
     <section class="promo">
+
+        <div class="title-box">
+            <h1>This App Is Amazing</h1>
+            <p>Lorem ipsum dolor sit amet?</p>
+
+        </div>
         <div class="grid">
-            <div class="title-box">
-                <h1>This App Is Amazing</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dolore temporibus iste vero est doloribus optio aut consequuntur nulla odio?</p>
-                 <div class="col">
-                     <h1>Doing great things for you</h1>
-                     <h2>Lorem ipsum dolor sit amet.</h2>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium distinctio commodi consequatur</p>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ex facilis velit perspiciatis animi unde culpa in adipisci rerum aliquid.</p>
-                     <a href="" class="btn btn--primary">Get The App</a>
-                 </div>
-                 <div class="col img-box">
-                    <img src="img/phone-in-hand.jpg" alt="A hand holding a phone">
-                 </div>
+            <div class="col col--1-2 bg-primary">
+                <h1>Doing great things for you</h1>
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium distinctio commodi consequatur</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ex facilis velit perspiciatis animi
+                    unde culpa in adipisci rerum aliquid.</p>
+                <a href="" class="btn btn--primary">Get The App</a>
+            </div>
+            <div class="col col--1-2 img-box lg-screen">
+
             </div>
         </div>
     </section>
     <!-- CTA -->
     <section class="cta">
-        <p class="text-large">You made it to the bottom and you still aren't sure?</p>
-        <h1 class="title-large">SHOWCASE THE GREATNESS TODAY</h1>
-        <a href="#" class="btn btn--primary">Get the App</a>
+        <div class="container container--cta">
+            <p class="text-large">You made it to the bottom and you still aren't sure?</p>
+            <h1 class="title-large">SHOWCASE THE GREATNESS TODAY</h1>
+            <a href="#" class="btn btn--primary">Get the App</a>
+        </div>
     </section>
     <!-- Footer -->
 
     <footer>
-        <div class="container">
-            <p>Take you app to the next level</p>
+        <div class="container container--footer">
+            <p class="title-footer">Take you app to the next level</p>
             <ul class="unstyled-list social-links">
-                <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-                <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
-                <li><a href=""><i class="fa fa-youtube-square"></i></a></li>
-                
+                <li>
+                    <a href="">
+                        <i class="fa fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-youtube-square"></i>
+                    </a>
+                </li>
+
+            </ul>
+        
+            <ul class="unstyled-list nav-footer">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Pricing</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
             </ul>
         </div>
-        <ul class="unstyled-list nav-footer">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
     </footer>
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/97974f9c24.js"></script>
+    <!-- My Sripts -->
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
