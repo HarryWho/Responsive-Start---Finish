@@ -508,7 +508,7 @@ footer a {
 
 .cta {
   background-color: #16db93;
-  background-image: url(img/call-to-action-background.jpg);
+  background-image: url(../img/call-to-action-background.jpg);
   background-size: cover;
   background-position: center;
   padding: 5em 0;
