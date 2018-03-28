@@ -16,13 +16,13 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .col {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
   padding: 0 .75em;
 }
 
@@ -37,28 +37,28 @@ body {
 
 .col--full {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
 }
 
 @media (min-width: 725px) {
   .col--1-3 {
     -ms-flex-preferred-size: 33.33333%;
-        flex-basis: 33.33333%;
+    flex-basis: 33.33333%;
   }
   .col--2-3 {
     -ms-flex-preferred-size: 66.66666%;
-        flex-basis: 66.66666%;
+    flex-basis: 66.66666%;
   }
   .col--1-2 {
     -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+    flex-basis: 50%;
   }
 }
 
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -110,6 +110,7 @@ p:last-child {
 }
 
 h1 {
+  font-size: 32px;
   font-size: 2rem;
   font-weight: 300;
   line-height: 1.15;
@@ -118,6 +119,7 @@ h1 {
 }
 
 h2 {
+  font-size: 19.2px;
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -125,6 +127,7 @@ h2 {
 }
 
 .title-large {
+  font-size: 48px;
   font-size: 3rem;
   font-weight: 900;
   line-height: .9;
@@ -140,14 +143,14 @@ h2 {
   margin: 0 auto;
   padding: 1em;
   -webkit-transform: translateY(30%);
-          transform: translateY(30%);
+  transform: translateY(30%);
   max-width: 90%;
 }
 
 @media (min-width: 495px) {
   .title-box {
     -webkit-transform: translateY(50%);
-            transform: translateY(50%);
+    transform: translateY(50%);
   }
 }
 
@@ -168,6 +171,7 @@ h2 {
 }
 
 .text-intro {
+  font-size: 19.2px;
   font-size: 1.2rem;
 }
 
@@ -196,7 +200,9 @@ h2 {
 
 .logo {
   width: 25%;
+  min-width: 160px;
   min-width: 10rem;
+  max-width: 240px;
   max-width: 15rem;
 }
 
@@ -239,8 +245,8 @@ h2 {
   .main-nav {
     position: relative;
     -webkit-box-flex: 1;
-        -ms-flex: auto;
-            flex: auto;
+    -ms-flex: auto;
+    flex: auto;
     background: none;
     margin-top: 1em;
     margin-left: 2em;
@@ -254,11 +260,12 @@ h2 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   height: 100vh;
+  font-size: 19.2px;
   font-size: 1.2rem;
 }
 
@@ -266,17 +273,17 @@ h2 {
   .main-nav ul {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     height: auto;
   }
 }
 
 .main-nav li {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, .25);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -294,16 +301,16 @@ h2 {
   color: white;
   text-decoration: none;
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 @media (min-width: 725px) {
@@ -313,7 +320,7 @@ h2 {
 }
 
 .main-nav a:hover {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, .1);
 }
 
 @media (min-width: 725px) {
@@ -354,22 +361,22 @@ h2 {
 
 .hamburger::before {
   -webkit-transform: translateY(-6px);
-          transform: translateY(-6px);
+  transform: translateY(-6px);
 }
 
 .hamburger::after {
   -webkit-transform: translateY(3px);
-          transform: translateY(3px);
+  transform: translateY(3px);
 }
 
 .hamburger.is-open {
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .hamburger.is-open::after {
   -webkit-transform: rotate(-90deg) translateX(2px);
-          transform: rotate(-90deg) translateX(2px);
+  transform: rotate(-90deg) translateX(2px);
 }
 
 .hamburger.is-open::before {
@@ -384,7 +391,7 @@ h2 {
 }
 
 .promo .img-box {
-  background: url(../img/phone-in-hand.jpg);
+  background: url(https://harrywho.github.io/Responsive-Start---Finish/img/phone-in-hand.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -426,7 +433,7 @@ footer:before {
   bottom: 0;
   right: 0;
   left: 0;
-  background-image: url(/img/logo.svg);
+  background-image: url(https://harrywho.github.io/Responsive-Start---Finish/img/logo.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -441,9 +448,10 @@ footer a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 48px;
   font-size: 3rem;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   opacity: 0.8;
   margin-top: .7em 0;
 }
@@ -453,7 +461,7 @@ footer a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin: 0 auto;
 }
 
@@ -500,7 +508,7 @@ footer a {
 
 .cta {
   background-color: #16db93;
-  background-image: url(img/call-to-action-background.jpg);
+  background-image: url(https://harrywho.github.io/Responsive-Start---Finish/img/call-to-action-background.jpg);
   background-size: cover;
   background-position: center;
   padding: 5em 0;
@@ -526,14 +534,14 @@ footer a {
     top: 0;
     bottom: -1.1em;
     -webkit-transform: skewX(60deg);
-            transform: skewX(60deg);
+    transform: skewX(60deg);
     left: -100%;
   }
   .cta::after {
     top: -1em;
     bottom: 0;
     -webkit-transform: skewX(60deg);
-            transform: skewX(60deg);
+    transform: skewX(60deg);
     right: -100%;
   }
 }
