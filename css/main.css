@@ -391,7 +391,7 @@ h2 {
 }
 
 .promo .img-box {
-  background: url(img/phone-in-hand.jpg);
+  background: url(/img/phone-in-hand.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -433,7 +433,7 @@ footer:before {
   bottom: 0;
   right: 0;
   left: 0;
-  background-image: url(img/logo.svg);
+  background-image: url(/img/logo.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
